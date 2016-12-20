@@ -2,6 +2,8 @@
 
 Test utilities package for Atom. Currently supports easily adding, removing, and moving `.only` modifiers with keyboard shortcuts or menu options.
 
+![Test Utils in action](https://cloud.githubusercontent.com/assets/1157043/21338101/016c9468-c641-11e6-9ab8-5651402c3024.gif)
+
 `ctrl-alt-a ctrl-alt-o`: Add a `.only` to the current line if there's a `describe`, `context`, or `it` (`a`dd `o`nly)
 
 `ctrl-alt-r ctrl-alt-o`: Remove all `.only`s from the current file (`r`emove `o`nly)
