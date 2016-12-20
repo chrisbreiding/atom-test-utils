@@ -3,6 +3,14 @@
   "version": "0.0.1",
   "description": "Add, remove, and move .only in tests",
   "main": "./lib/test-utils",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisbreiding/atom-test-utils"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisbreiding/atom-test-utils/issues"
+  },
+  "homepage": "https://github.com/chrisbreiding/atom-test-utils",
   "activationCommands": {
     "atom-workspace": "test-utils:move"
   },
