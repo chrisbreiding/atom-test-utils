@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-a ctrl-alt-o": "test-utils:add",
+    "ctrl-alt-r ctrl-alt-o": "test-utils:remove",
+    "ctrl-alt-m ctrl-alt-o": "test-utils:move"
+  }
+}

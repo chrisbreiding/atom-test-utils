@@ -1,0 +1,42 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Add .only to current line",
+        "command": "test-utils:add"
+      },
+      {
+        "label": "Remove all .only's",
+        "command": "test-utils:remove"
+      },
+      {
+        "label": "Move .only to current line",
+        "command": "test-utils:move"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Test Utils",
+          "submenu": [
+            {
+              "label": "Add .only to current line",
+              "command": "test-utils:add"
+            },
+            {
+              "label": "Remove all .only's",
+              "command": "test-utils:remove"
+            },
+            {
+              "label": "Move .only to current line",
+              "command": "test-utils:move"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
