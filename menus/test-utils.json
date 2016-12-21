@@ -3,15 +3,27 @@
     "atom-text-editor": [
       {
         "label": "Add .only to current line",
-        "command": "test-utils:add"
+        "command": "test-utils:add-only"
       },
       {
         "label": "Remove all .only's",
-        "command": "test-utils:remove"
+        "command": "test-utils:remove-all-onlys"
       },
       {
         "label": "Move .only to current line",
-        "command": "test-utils:move"
+        "command": "test-utils:move-only"
+      },
+      {
+        "label": "Add .skip to current line",
+        "command": "test-utils:add-skip"
+      },
+      {
+        "label": "Remove .skip on current line",
+        "command": "test-utils:remove-skip"
+      },
+      {
+        "label": "Remove all .skip's",
+        "command": "test-utils:remove-all-skips"
       }
     ]
   },
@@ -24,15 +36,27 @@
           "submenu": [
             {
               "label": "Add .only to current line",
-              "command": "test-utils:add"
+              "command": "test-utils:add-only"
             },
             {
               "label": "Remove all .only's",
-              "command": "test-utils:remove"
+              "command": "test-utils:remove-all-onlys"
             },
             {
               "label": "Move .only to current line",
-              "command": "test-utils:move"
+              "command": "test-utils:move-only"
+            },
+            {
+              "label": "Add .skip to current line",
+              "command": "test-utils:add-skip"
+            },
+            {
+              "label": "Remove .skip on current line",
+              "command": "test-utils:remove-skip"
+            },
+            {
+              "label": "Remove all .skip's",
+              "command": "test-utils:remove-all-skips"
             }
           ]
         }

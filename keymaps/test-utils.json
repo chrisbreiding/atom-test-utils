@@ -1,7 +1,11 @@
 {
   "atom-workspace": {
-    "ctrl-alt-a ctrl-alt-o": "test-utils:add",
-    "ctrl-alt-r ctrl-alt-o": "test-utils:remove",
-    "ctrl-alt-m ctrl-alt-o": "test-utils:move"
+    "ctrl-alt-a ctrl-alt-o": "test-utils:add-only",
+    "ctrl-alt-r ctrl-alt-o": "test-utils:remove-all-onlys",
+    "ctrl-alt-m ctrl-alt-o": "test-utils:move-only",
+
+    "ctrl-alt-a ctrl-alt-s": "test-utils:add-skip",
+    "ctrl-alt-r ctrl-alt-s": "test-utils:remove-skip",
+    "ctrl-alt-r ctrl-alt-a ctrl-alt-s": "test-utils:remove-all-skips"
   }
 }

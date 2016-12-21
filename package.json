@@ -12,7 +12,14 @@
   },
   "homepage": "https://github.com/chrisbreiding/atom-test-utils",
   "activationCommands": {
-    "atom-workspace": "test-utils:move"
+    "atom-workspace": [
+      "test-utils:add-only",
+      "test-utils:remove-all-onlys",
+      "test-utils:move-only",
+      "test-utils:add-skip",
+      "test-utils:remove-skip",
+      "test-utils:remove-all-skips"
+    ]
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

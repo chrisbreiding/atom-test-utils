@@ -1,14 +1,21 @@
 # Test Utils
 
-Test utilities package for Atom. Currently supports easily adding, removing, and moving `.only` modifiers with keyboard shortcuts or menu options.
+Test utilities package for Atom. Currently supports easily adding and removing `.only` and `.skip` modifiers with keyboard shortcuts or menu options.
 
 ![Test Utils in action](https://cloud.githubusercontent.com/assets/1157043/21338283/dd768044-c642-11e6-88a1-1c3bbfa89784.gif)
 
-`ctrl-alt-a ctrl-alt-o`: Add a `.only` to the current line if there's a `describe`, `context`, or `it` (`a`dd `o`nly)
+## Available Commands
 
-`ctrl-alt-r ctrl-alt-o`: Remove all `.only`s from the current file (`r`emove `o`nly)
+| Shortcut | Action | Mnemonic |
+| -------- | ------ | -------- |
+| `ctrl-alt-a ctrl-alt-o` | Add a `.only` to the current line if there's a `describe`, `context`, or `it` | `a`dd `o`nly |
+| `ctrl-alt-r ctrl-alt-o` | Remove all `.only`s from the current file | `r`emove `o`nly |
+| `ctrl-alt-m ctrl-alt-o` | Remove all `.only`s from the current file and add a `.only` to the current line if there's a `describe`, `context`, or `it` | `m`ove `o`nly |
+| `ctrl-alt-a ctrl-alt-s` | Add a `.skip` to the current line if there's a `describe`, `context`, or `it` | `a`dd `s`kip |
+| `ctrl-alt-r ctrl-alt-s` | Remove the `.skip` from the current line | `r`emove `s`kip |
+| `ctrl-alt-s ctrl-alt-a ctrl-alt-s` | Remove all `.skip`s from the current file | `r`emove `a`ll `s`kips |
 
-`ctrl-alt-m ctrl-alt-o`: Remove all `.only`s from the current file and add a `.only` to the current line if there's a `describe`, `context`, or `it` (`m`ove `o`nly)
+## About
 
 The cursor can be anywhere on the line for the `add` and `move` commands. The shortcuts are meant to be used hold `alt` and `ctrl`, then pressing the letters in succession. So `ctrl-alt-a ctrl-alt-o` means holding `alt` + `ctrl`, pressing `a`, then pressing `o`.
 
