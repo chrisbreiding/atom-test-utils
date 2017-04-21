@@ -14,6 +14,7 @@
   "activationCommands": {
     "atom-workspace": [
       "test-utils:add-only",
+      "test-utils:remove-only",
       "test-utils:remove-all-onlys",
       "test-utils:move-only",
       "test-utils:add-skip",

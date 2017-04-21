@@ -1,7 +1,8 @@
 {
   "atom-workspace": {
     "ctrl-alt-a ctrl-alt-o": "test-utils:add-only",
-    "ctrl-alt-r ctrl-alt-o": "test-utils:remove-all-onlys",
+    "ctrl-alt-r ctrl-alt-o": "test-utils:remove-only",
+    "ctrl-alt-r ctrl-alt-a ctrl-alt-o": "test-utils:remove-all-onlys",
     "ctrl-alt-m ctrl-alt-o": "test-utils:move-only",
 
     "ctrl-alt-a ctrl-alt-s": "test-utils:add-skip",

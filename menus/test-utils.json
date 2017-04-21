@@ -6,6 +6,10 @@
         "command": "test-utils:add-only"
       },
       {
+        "label": "Remove .only from current line",
+        "command": "test-utils:remove-only"
+      },
+      {
         "label": "Remove all .only's",
         "command": "test-utils:remove-all-onlys"
       },
@@ -37,6 +41,10 @@
             {
               "label": "Add .only to current line",
               "command": "test-utils:add-only"
+            },
+            {
+              "label": "Remove .only from current line",
+              "command": "test-utils:mreove-only"
             },
             {
               "label": "Remove all .only's",
