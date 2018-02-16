@@ -14,7 +14,7 @@ Test utilities package for Atom. Currently supports easily adding and removing `
 | `ctrl-alt-m ctrl-alt-o` | Remove all `.only`s from the current file and add a `.only` to the current line if there's a `describe`, `context`, or `it` | `m`ove `o`nly |
 | `ctrl-alt-a ctrl-alt-s` | Add a `.skip` to the current line if there's a `describe`, `context`, or `it` | `a`dd `s`kip |
 | `ctrl-alt-r ctrl-alt-s` | Remove the `.skip` from the current line | `r`emove `s`kip |
-| `ctrl-alt-s ctrl-alt-a ctrl-alt-s` | Remove all `.skip`s from the current file | `r`emove `a`ll `s`kips |
+| `ctrl-alt-r ctrl-alt-a ctrl-alt-s` | Remove all `.skip`s from the current file | `r`emove `a`ll `s`kips |
 
 ## About
 
